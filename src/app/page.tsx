@@ -45,7 +45,7 @@ export default function Home() {
             <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-medium tracking-tight text-gray-900 leading-[0.95] mb-8 animate-fade-in-up-delay-1">
               Intelligence,
               <br />
-              <span className="text-brand-green">Specialized.</span>
+              <span className="text-brand-orange">Specialized.</span>
             </h1>
 
             <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto mb-12 leading-relaxed font-arabic animate-fade-in-up-delay-2">
@@ -82,84 +82,6 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="mt-24 grid grid-cols-1 sm:grid-cols-3 gap-8 text-left max-w-3xl mx-auto">
-              <div className="group p-6 rounded-2xl bg-white/60 border border-cream-dark/50 hover:bg-white hover:shadow-md transition-all duration-300">
-                <div className="w-10 h-10 rounded-xl bg-brand-green/10 flex items-center justify-center mb-4">
-                  <svg
-                    className="w-5 h-5 text-brand-green"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth={1.5}
-                    aria-hidden="true"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611l-.573.096a9.016 9.016 0 01-5.124 0l-.573-.096c-1.717-.293-2.3-2.379-1.067-3.61L14.25 15.3"
-                    />
-                  </svg>
-                </div>
-                <h3 className="font-heading text-lg font-medium text-gray-900 mb-2">
-                  Domain Expertise
-                </h3>
-                <p className="text-sm text-gray-600 leading-relaxed">
-                  Each product is built with deep understanding of its
-                  field&apos;s regulations and practices.
-                </p>
-              </div>
-
-              <div className="group p-6 rounded-2xl bg-white/60 border border-cream-dark/50 hover:bg-white hover:shadow-md transition-all duration-300">
-                <div className="w-10 h-10 rounded-xl bg-brand-orange/10 flex items-center justify-center mb-4">
-                  <svg
-                    className="w-5 h-5 text-brand-orange"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth={1.5}
-                    aria-hidden="true"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"
-                    />
-                  </svg>
-                </div>
-                <h3 className="font-heading text-lg font-medium text-gray-900 mb-2">
-                  Precision First
-                </h3>
-                <p className="text-sm text-gray-600 leading-relaxed">
-                  High-stakes domains demand accuracy. Our models are tuned to
-                  deliver reliable results.
-                </p>
-              </div>
-
-              <div className="group p-6 rounded-2xl bg-white/60 border border-cream-dark/50 hover:bg-white hover:shadow-md transition-all duration-300">
-                <div className="w-10 h-10 rounded-xl bg-brand-green/10 flex items-center justify-center mb-4">
-                  <svg
-                    className="w-5 h-5 text-brand-green"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth={1.5}
-                    aria-hidden="true"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418"
-                    />
-                  </svg>
-                </div>
-                <h3 className="font-heading text-lg font-medium text-gray-900 mb-2">
-                  Region Aware
-                </h3>
-                <p className="text-sm text-gray-600 leading-relaxed">
-                  Built for specific markets and jurisdictions, not one-size-fits-all solutions.
-                </p>
-              </div>
-            </div>
           </div>
         </section>
 
