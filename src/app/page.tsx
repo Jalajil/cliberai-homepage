@@ -4,11 +4,11 @@ export default function Home() {
       <header className="fixed top-0 left-0 right-0 z-50 bg-cream/80 backdrop-blur-md border-b border-cream-dark/50">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-white border border-cream-dark flex items-center justify-center shadow-sm">
-              <span className="text-brand-orange font-heading text-2xl leading-none">
-                C
-              </span>
-            </div>
+            <img
+              src="/favicon.svg"
+              alt="Cliber AI logo"
+              className="w-10 h-10 rounded-xl shadow-sm"
+            />
             <span className="text-xl font-heading font-medium tracking-tight text-gray-900">
               Cliber AI
             </span>
@@ -48,7 +48,7 @@ export default function Home() {
               <span className="text-brand-green">Specialized.</span>
             </h1>
 
-            <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto mb-12 leading-relaxed animate-fade-in-up-delay-2">
+            <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto mb-12 leading-relaxed font-arabic animate-fade-in-up-delay-2">
               We don&apos;t build general-purpose AI. We build systems that
               master specific domains — understanding the rules, the context, and
               the stakes that matter.
@@ -171,7 +171,7 @@ export default function Home() {
             <h2 className="font-heading text-3xl sm:text-4xl font-medium text-gray-900 mb-4">
               Get in Touch
             </h2>
-            <p className="text-gray-600 mb-10">
+            <p className="text-gray-600 mb-10 font-arabic">
               Interested in our products or want to explore a partnership?
               We&apos;d love to hear from you.
             </p>
@@ -205,11 +205,12 @@ export default function Home() {
       <footer className="py-8 bg-cream border-t border-cream-dark/50">
         <div className="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
-            <div className="w-7 h-7 rounded-lg bg-white border border-cream-dark flex items-center justify-center">
-              <span className="text-brand-orange font-heading text-base leading-none">
-                C
-              </span>
-            </div>
+            <img
+              src="/favicon.svg"
+              alt=""
+              className="w-7 h-7 rounded-lg"
+              aria-hidden="true"
+            />
             <span className="text-sm text-gray-500">
               &copy; {new Date().getFullYear()} Cliber AI
             </span>
