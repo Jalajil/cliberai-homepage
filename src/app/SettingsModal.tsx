@@ -1,11 +1,12 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
+import type { ReactElement } from "react";
 import { useLanguage } from "./LanguageProvider";
 import { type Lang, type Theme, langMeta } from "./translations";
 
 const langs: Lang[] = ["en", "ar", "fr", "de", "ja", "zh", "ko"];
-const themes: { value: Theme; labelKey: string; icon: JSX.Element }[] = [
+const themes: { value: Theme; labelKey: string; icon: ReactElement }[] = [
   {
     value: "system",
     labelKey: "themeSystem",
