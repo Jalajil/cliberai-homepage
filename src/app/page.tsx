@@ -11,7 +11,7 @@ export default function Home() {
       <header className="fixed top-0 left-0 right-0 z-50 bg-cream/80 dark:bg-neutral-950/80 backdrop-blur-md border-b border-cream-dark/50 dark:border-neutral-800">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <span className="text-2xl font-heading font-semibold tracking-tight text-brand-orange">
+            <span className="text-2xl font-heading font-semibold tracking-tight text-black dark:text-white">
               Cliber AI
             </span>
           </div>
@@ -29,12 +29,6 @@ export default function Home() {
 
       <main>
         <section className="relative pt-32 pb-16 overflow-hidden grid-pattern">
-          <div className="absolute top-20 right-[15%] w-72 h-72 bg-brand-orange/20 dark:bg-brand-orange/20 rounded-full blur-3xl animate-float" />
-          <div
-            className="absolute bottom-32 left-[10%] w-96 h-96 bg-brand-orange/15 dark:bg-brand-orange/15 rounded-full blur-3xl animate-float"
-            style={{ animationDelay: "3s" }}
-          />
-
           <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
             <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl font-medium tracking-tight text-gray-900 dark:text-gray-100 leading-[0.95] mb-6 animate-fade-in-up-delay-1">
               {t("heroTitle1")}
@@ -50,7 +44,7 @@ export default function Home() {
 
         <section className="relative px-6 pt-10 pb-24 overflow-hidden">
           <div className="max-w-6xl mx-auto">
-            <div className="relative rounded-3xl overflow-hidden bg-cream-light/60 dark:bg-neutral-900/60 border border-cream-dark/40 dark:border-neutral-700/50 px-8 py-12">
+            <div className="relative rounded-3xl overflow-hidden bg-cream-light/60 dark:bg-neutral-900/60 border border-neutral-300 dark:border-neutral-700/50 px-8 py-12">
               <div className="absolute -left-16 top-1/2 -translate-y-1/2 w-80 h-80 bg-brand-green/40 dark:bg-brand-green/50 rounded-full blur-3xl animate-float pointer-events-none" />
               <div className="absolute -right-16 top-1/2 -translate-y-1/2 w-80 h-80 bg-brand-green/35 dark:bg-brand-green/45 rounded-full blur-3xl animate-float pointer-events-none" style={{ animationDelay: "3s" }} />
               <div className="absolute top-[-40px] left-[15%] w-64 h-64 bg-brand-green/20 dark:bg-brand-green/28 rounded-full blur-3xl pointer-events-none" />
