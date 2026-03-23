@@ -118,7 +118,7 @@ export default function SettingsButton() {
                 <div className="flex-1 text-start">
                   <span>{t("language")}</span>
                 </div>
-                <span className="text-xs text-gray-400 dark:text-gray-500">{langMeta[lang].flag} {langMeta[lang].label}</span>
+                <span className="text-xs text-gray-400 dark:text-gray-500">{langMeta[lang].code} {langMeta[lang].label}</span>
                 <svg className="w-4 h-4 text-gray-400 rtl:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
                 </svg>
@@ -143,7 +143,7 @@ export default function SettingsButton() {
           )}
 
           {section === "language" && (
-            <div className="p-2 max-h-80 overflow-y-auto">
+            <div className="p-2 max-h-80 overflow-y-auto dark:[color-scheme:dark]">
               <div className="flex flex-col gap-0.5">
                 {langs.map((l) => (
                   <button
@@ -158,7 +158,7 @@ export default function SettingsButton() {
                         : "text-gray-700 dark:text-gray-300 hover:bg-cream dark:hover:bg-neutral-800"
                     }`}
                   >
-                    <span className="text-lg">{langMeta[l].flag}</span>
+                    <span className="text-[10px] font-bold bg-gray-200 dark:bg-neutral-700 text-gray-600 dark:text-gray-300 rounded px-1.5 py-0.5 leading-none">{langMeta[l].code}</span>
                     <span>{langMeta[l].label}</span>
                     {lang === l && (
                       <svg className="w-4 h-4 ms-auto text-brand-orange" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>

@@ -1,14 +1,14 @@
 export type Lang = "en" | "ar" | "fr" | "de" | "ja" | "zh" | "ko";
 export type Theme = "system" | "light" | "dark";
 
-export const langMeta: Record<Lang, { label: string; dir: "ltr" | "rtl"; flag: string }> = {
-  en: { label: "English", dir: "ltr", flag: "🇬🇧" },
-  ar: { label: "العربية", dir: "rtl", flag: "🇸🇦" },
-  fr: { label: "Français", dir: "ltr", flag: "🇫🇷" },
-  de: { label: "Deutsch", dir: "ltr", flag: "🇩🇪" },
-  ja: { label: "日本語", dir: "ltr", flag: "🇯🇵" },
-  zh: { label: "中文", dir: "ltr", flag: "🇨🇳" },
-  ko: { label: "한국어", dir: "ltr", flag: "🇰🇷" },
+export const langMeta: Record<Lang, { label: string; dir: "ltr" | "rtl"; flag: string; code: string }> = {
+  en: { label: "English", dir: "ltr", flag: "🇬🇧", code: "EN" },
+  ar: { label: "العربية", dir: "rtl", flag: "🇸🇦", code: "AR" },
+  fr: { label: "Français", dir: "ltr", flag: "🇫🇷", code: "FR" },
+  de: { label: "Deutsch", dir: "ltr", flag: "🇩🇪", code: "DE" },
+  ja: { label: "日本語", dir: "ltr", flag: "🇯🇵", code: "JP" },
+  zh: { label: "中文", dir: "ltr", flag: "🇨🇳", code: "CN" },
+  ko: { label: "한국어", dir: "ltr", flag: "🇰🇷", code: "KR" },
 };
 
 export const translations: Record<Lang, Record<string, string>> = {
