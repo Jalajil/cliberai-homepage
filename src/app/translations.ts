@@ -17,7 +17,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     heroTitle1: "Intelligence,",
     heroTitle2: "Specialized.",
     heroDesc:
-      "We don't build general-purpose AI. We build systems that master specific domains — understanding the rules, the context, and the stakes that matter.",
+      "We build AI products that solve real problems, turning complex challenges into simple, powerful tools.",
     featuredProduct: "Featured Product",
     saudiJudge: "القاضي السعودي",
     featuredDesc:
@@ -36,11 +36,11 @@ export const translations: Record<Lang, Record<string, string>> = {
   },
   ar: {
     contact: "تواصل معنا",
-    heroTitle1: "ذكاء",
-    heroTitle2: "متخصص.",
+    heroTitle1: "متخصصين",
+    heroTitle2: "في الذكاء.",
     heroDesc:
-      "نحن لا نبني ذكاءً اصطناعياً عاماً. نبني أنظمة تتقن مجالات محددة — تفهم القواعد والسياق والمخاطر التي تهم.",
-    featuredProduct: "المنتج المميز",
+      "نبني منتجات ذكاء اصطناعي تحل مشاكل حقيقية، نحوّل التحديات المعقدة إلى أدوات بسيطة وقوية.",
+    featuredProduct: "احد منتجاتنا",
     saudiJudge: "القاضي السعودي",
     featuredDesc:
       "توقع أحكام قضائية مدعوم بالذكاء الاصطناعي للنظام القانوني السعودي. قدّم قضية واحصل على حكم متوقع مع التسبيب الكامل.",
@@ -48,7 +48,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     getInTouch: "تواصل معنا",
     contactDesc:
       "مهتم بمنتجاتنا أو ترغب في استكشاف شراكة؟ يسعدنا سماع رأيك.",
-    tagline: "ذكاء متخصص.",
+    tagline: "متخصصين في الذكاء.",
     settings: "الإعدادات",
     language: "اللغة",
     theme: "المظهر",
@@ -61,7 +61,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     heroTitle1: "Intelligence,",
     heroTitle2: "Spécialisée.",
     heroDesc:
-      "Nous ne construisons pas d'IA généraliste. Nous créons des systèmes qui maîtrisent des domaines spécifiques — comprenant les règles, le contexte et les enjeux qui comptent.",
+      "Nous créons des produits d'IA qui résolvent de vrais problèmes, transformant des défis complexes en outils simples et puissants.",
     featuredProduct: "Produit Vedette",
     saudiJudge: "القاضي السعودي",
     featuredDesc:
@@ -83,7 +83,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     heroTitle1: "Intelligenz,",
     heroTitle2: "Spezialisiert.",
     heroDesc:
-      "Wir bauen keine allgemeine KI. Wir entwickeln Systeme, die bestimmte Bereiche beherrschen — die Regeln, den Kontext und die Risiken verstehen, die zählen.",
+      "Wir entwickeln KI-Produkte, die echte Probleme lösen, komplexe Herausforderungen werden zu einfachen, leistungsstarken Werkzeugen.",
     featuredProduct: "Hervorgehobenes Produkt",
     saudiJudge: "القاضي السعودي",
     featuredDesc:
@@ -105,7 +105,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     heroTitle1: "知能、",
     heroTitle2: "専門化。",
     heroDesc:
-      "私たちは汎用AIを作りません。特定の分野を極めるシステムを構築します——ルール、文脈、そして重要なリスクを理解するシステムを。",
+      "私たちは本当の問題を解決するAI製品を作ります。複雑な課題をシンプルで強力なツールに変えます。",
     featuredProduct: "注目の製品",
     saudiJudge: "القاضي السعودي",
     featuredDesc:
@@ -127,7 +127,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     heroTitle1: "智能，",
     heroTitle2: "专业化。",
     heroDesc:
-      "我们不构建通用人工智能。我们构建精通特定领域的系统——理解规则、上下文和重要的风险。",
+      "我们构建解决真实问题的AI产品，将复杂挑战转化为简单而强大的工具。",
     featuredProduct: "特色产品",
     saudiJudge: "القاضي السعودي",
     featuredDesc:
@@ -149,7 +149,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     heroTitle1: "지능,",
     heroTitle2: "전문화.",
     heroDesc:
-      "우리는 범용 AI를 만들지 않습니다. 특정 분야를 마스터하는 시스템을 구축합니다 — 규칙, 맥락, 그리고 중요한 위험을 이해하는 시스템을.",
+      "우리는 실제 문제를 해결하는 AI 제품을 만듭니다. 복잡한 도전을 간단하고 강력한 도구로 바꿉니다.",
     featuredProduct: "주요 제품",
     saudiJudge: "القاضي السعودي",
     featuredDesc:

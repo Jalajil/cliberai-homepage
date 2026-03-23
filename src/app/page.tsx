@@ -28,7 +28,7 @@ export default function Home() {
       </header>
 
       <main>
-        <section className="relative pt-32 pb-16 overflow-hidden grid-pattern">
+        <section className="relative pt-32 pb-16 overflow-hidden">
           <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
             <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl font-medium tracking-tight text-gray-900 dark:text-gray-100 leading-[0.95] mb-6 animate-fade-in-up-delay-1">
               {t("heroTitle1")}
@@ -44,7 +44,7 @@ export default function Home() {
 
         <section className="relative px-6 pt-10 pb-24 overflow-hidden">
           <div className="max-w-6xl mx-auto">
-            <div className="relative rounded-3xl overflow-hidden bg-cream-light/60 dark:bg-neutral-900/60 border border-neutral-300 dark:border-neutral-700/50 px-8 py-12">
+            <div className="relative rounded-3xl overflow-hidden bg-neutral-100/60 dark:bg-neutral-900/60 border border-neutral-200/50 dark:border-neutral-700/50 px-8 py-12">
               <div className="absolute -left-16 top-1/2 -translate-y-1/2 w-80 h-80 bg-brand-green/40 dark:bg-brand-green/50 rounded-full blur-3xl animate-float pointer-events-none" />
               <div className="absolute -right-16 top-1/2 -translate-y-1/2 w-80 h-80 bg-brand-green/35 dark:bg-brand-green/45 rounded-full blur-3xl animate-float pointer-events-none" style={{ animationDelay: "3s" }} />
               <div className="absolute top-[-40px] left-[15%] w-64 h-64 bg-brand-green/20 dark:bg-brand-green/28 rounded-full blur-3xl pointer-events-none" />
@@ -65,10 +65,11 @@ export default function Home() {
                 <div className="relative group w-full max-w-4xl">
                   <div className="absolute -inset-1 bg-gradient-to-br from-brand-green/30 via-brand-green/10 to-brand-green/30 rounded-2xl blur-xl opacity-70 group-hover:opacity-100 transition-opacity duration-500" />
                   <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-brand-green/20 dark:border-brand-green/30">
-                    <img
-                      src="/saudi-judge-preview.png"
-                      alt="Saudi Judge — AI legal judgment prediction interface"
-                      className="w-full h-auto"
+                    <iframe
+                      src="https://www.saudi-judge.cliberai.com"
+                      title="Saudi Judge — AI legal judgment prediction interface"
+                      className="w-full aspect-[16/10]"
+                      loading="lazy"
                     />
                   </div>
                 </div>
@@ -81,7 +82,7 @@ export default function Home() {
                 >
                   <span>{t("trySaudiJudge")}</span>
                   <svg
-                    className="w-4 h-4 transition-transform group-hover:translate-x-1"
+                    className={`w-4 h-4 transition-transform ${dir === "rtl" ? "rotate-180 group-hover:-translate-x-1" : "group-hover:translate-x-1"}`}
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -114,7 +115,7 @@ export default function Home() {
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
               <a
-                href="mailto:ahlan@cliberai.com"
+                href="mailto:assalam@cliberai.com"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-cream dark:bg-neutral-800 border border-cream-dark dark:border-neutral-700 text-gray-700 dark:text-gray-300 hover:bg-cream-dark dark:hover:bg-neutral-700 transition-all duration-200"
               >
                 <svg
@@ -131,7 +132,7 @@ export default function Home() {
                     d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
                   />
                 </svg>
-                ahlan@cliberai.com
+                assalam@cliberai.com
               </a>
             </div>
           </div>

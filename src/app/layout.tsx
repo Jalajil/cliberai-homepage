@@ -4,14 +4,14 @@ import { LanguageProvider } from "./LanguageProvider";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://cliberai.com"),
-  title: "Cliber AI — Intelligence, Specialized",
+  title: "Cliber AI",
   description:
     "We build AI systems that master specific domains. Our tools don't just assist — they understand the rules, the context, and the stakes.",
   icons: {
     icon: "/favicon.svg",
   },
   openGraph: {
-    title: "Cliber AI — Intelligence, Specialized",
+    title: "Cliber AI",
     description:
       "We build AI systems that master specific domains. Our tools don't just assist — they understand the rules, the context, and the stakes.",
     url: "https://cliberai.com",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Cliber AI — Intelligence, Specialized",
+    title: "Cliber AI",
     description:
       "We build AI systems that master specific domains. Our tools don't just assist — they understand the rules, the context, and the stakes.",
   },
