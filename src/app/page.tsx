@@ -31,9 +31,9 @@ export default function Home() {
         <section className="relative pt-32 pb-16 overflow-hidden">
           <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
             <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl font-medium tracking-tight text-gray-900 dark:text-gray-100 leading-[0.95] mb-6 animate-fade-in-up-delay-1">
-              {t("heroTitle1")}
+              <span className="text-brand-orange">{t("heroTitle1")}</span>
               <br />
-              <span className="text-brand-orange">{t("heroTitle2")}</span>
+              {t("heroTitle2")}
             </h1>
 
             <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed font-arabic animate-fade-in-up-delay-2">
